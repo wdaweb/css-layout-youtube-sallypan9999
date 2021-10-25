@@ -1,0 +1,203 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 85%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #eee;
+}
+
+.main {
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.main input {
+  width: 500px;
+  font-size: 20px;
+}
+
+#bur {
+  position: absolute;
+  top: 5px;
+  right: 490px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  right: 890px;
+  width: 50px;
+  height: 30px;
+  background-image: url(./icons/放大鏡.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 370px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid rgb(14, 154, 219);
+  padding: 10px;
+  background-image: url(./icons/登入.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn1 {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 1%;
+}
+
+.adve {
+  width: 100%;
+  height: 400px;
+  float: right;
+  background-color: white;
+  position: relative;
+}
+
+#slogan {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#b1 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: white;
+  border-color: rgb(14, 154, 219);
+  color: rgb(14, 154, 219);
+  font-size: 1rem;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.computer {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+
+#del {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  border: 0;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* content */
+.tr {
+  font-size: 0;
+  padding: 10px;
+}
+
+.td {
+  width: 25%;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.big {
+  width: 100%;
+}
+
+.inner {
+  width: 100%;
+}
+
+.inner p {
+  float: right;
+  width: 80%;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* sidebar */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 15%;
+  background: white;
+}
+
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.text {
+  overflow: auto;
+  height: 100vh;
+  font-size: 0;
+}
+
+.text p {
+  width: 100%;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.btn2 {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background: white;
+  text-align: left;
+}
+
+.btn2 i {
+  margin-right: 50px;
+  margin-left: 30px;
+}
+
+.rear {
+  width: 100%;
+  padding: 20px;
+}
+
+.btn3 {
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  background: white;
+}
